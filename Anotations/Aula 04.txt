@@ -1,0 +1,25 @@
+CONSTRAINT
+
+São utilizadas para especificar as regras de dados em uma tabela.
+Limitam os tipos de dados que podem ser armazenados, garantem a consistência dos dados e em caso de qualquer violação de uma regra definida a operação será abortada e uma exceção lançada.
+
+Pode ser de nível de coluna ou de tabela.
+
+Tipos mais comuns de Constraints:
+- NOT NULL
+- UNIQUE
+- PRIMARY KEY
+- FOREIGN KEY - Prevenir que ações removam links entre tabelas
+- CHECK - Garantir que valores de uma coluna satisfaçam a uma condição específica;
+- DEFAULT - 
+- CREATE INDEX -
+
+PK - Primary Key
+Responsável por garantir a unicidade do registro em uma tabela.
+Registro é o conjunto de dados contidos nas colunas de uma tabela do banco de dados, também chamado de TUPLA.
+Uma tabela pode conter apenas uma PK e ela pode ser SIMPLES ou COMPOSTA.
+
+FK - Foreign Key
+É um campo ou um conjunto de colunas em uma tabelaq
+ que fazem referência a uma PK de uma tabela externa.
+Uma tabela com uma FK também é chamada de tabela filha, e a tabela com a PK específica é chamada de pai/mãe.
