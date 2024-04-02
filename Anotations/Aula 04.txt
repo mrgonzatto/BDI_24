@@ -23,3 +23,14 @@ FK - Foreign Key
 É um campo ou um conjunto de colunas em uma tabelaq
  que fazem referência a uma PK de uma tabela externa.
 Uma tabela com uma FK também é chamada de tabela filha, e a tabela com a PK específica é chamada de pai/mãe.
+
+Os relacionamentos entre Entidades se dão através de uma especificação de CARDINALIDADE, que podem ser:
+1:1 -> Um pra um
+1:N
+N:1
+N:N
+
+
+
+
+
